@@ -1,4 +1,7 @@
-package ua.util;
+package main.ua.Electronics_Store;
+
+import main.ua.Electronics_Store.model.*;
+
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -53,9 +56,5 @@ public class Main {
         } catch (IllegalArgumentException e) {
             System.out.println("Помилка створення клієнта: " + e.getMessage());
         }
-
-        System.out.println("\n=== Доступ до package-private ValidationHelper ===");
-        boolean validName = ValidationHelper.isNonEmpty("TestName");
-        System.out.println("Чи непусте ім'я 'TestName'? " + validName);
     }
 }

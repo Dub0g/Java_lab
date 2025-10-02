@@ -1,4 +1,4 @@
-package ua.util;
+package main.ua.Electronics_Store.model;
 
 import java.time.LocalDate;
 import java.util.List;

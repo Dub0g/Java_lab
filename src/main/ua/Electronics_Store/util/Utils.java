@@ -1,4 +1,4 @@
-package ua.util;
+package main.ua.Electronics_Store.util;
 
 public class Utils {
     public static void validateName(String name) {

@@ -1,11 +1,11 @@
-package ua.util;
+package main.ua.Electronics_Store.model;
+
+import main.ua.Electronics_Store.util.Utils;
 
 import java.util.Objects;
 
-public class Customer {
-    private String firstName;
-    private String lastName;
-    private String email;
+public class Customer extends Person {
+
 
     public Customer(String firstName, String lastName, String email) {
         Utils.validateName(firstName);
@@ -58,3 +58,4 @@ public class Customer {
         return Objects.hash(firstName, lastName, email);
     }
 }
+
